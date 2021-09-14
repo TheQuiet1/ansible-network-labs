@@ -1,6 +1,6 @@
 ---
 - name: backup ios router configurations
-  hosts: R102
+  hosts: routers
   connection: network_cli
   gather_facts: no
 
